@@ -31,7 +31,7 @@ export function Reveal({ children, className, delay = 0 }: { children: ReactNode
 export function BuyButton({ label, location, className }: { label: string; location: string; className?: string }) {
   const external = Boolean(siteConfig.checkoutUrl);
   return (
-    <Button asChild variant="neon" size="xl" className={cn("whitespace-normal text-center", className)}>
+    <Button asChild variant="neon" size="xl" className={cn("whitespace-normal text-center lg:whitespace-nowrap", className)}>
       <a
         href={external ? siteConfig.checkoutUrl || "#oferta" : "#oferta"}
         onClick={(e) => {

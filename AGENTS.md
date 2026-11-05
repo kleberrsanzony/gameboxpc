@@ -28,3 +28,4 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+- Commercial data (checkout URL, price, FAQ answers, testimonials, WhatsApp) lives only in src/config/site.ts; empty fields are hidden on the page so nothing unconfirmed is shown publicly.

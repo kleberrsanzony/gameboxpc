@@ -68,7 +68,7 @@ function Hero() {
           <span className="inline-flex items-center gap-2 rounded-full glass px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-primary">
             <Gamepad2 className="size-4" /> Sua central gamer retrô
           </span>
-          <h1 className="mt-6 text-4xl font-extrabold uppercase leading-[1.02] sm:text-6xl xl:text-7xl">
+          <h1 className="mt-6 text-4xl font-extrabold uppercase leading-[1.02] sm:text-6xl xl:text-[4.25rem]">
             Os clássicos que marcaram sua infância. <span className="text-neon">Agora no seu PC.</span>
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg text-muted-foreground lg:mx-0">
