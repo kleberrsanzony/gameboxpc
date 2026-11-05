@@ -171,9 +171,9 @@ function Demo() {
   const go = (n: number) => {
     const next = (n + SCREENS.length) % SCREENS.length;
     setI(next);
-    track("select_item", { location: "demo", item_name: SCREENS[next].title });
+    track("select_item", { location: "demo", item_name: SCREENS[next]?.title });
   };
-  const S = SCREENS[i];
+  const S = SCREENS[i] ?? SCREENS[0]!;
   return (
     <section id="demo" className="scroll-mt-20 py-24">
       <div className="mx-auto max-w-6xl px-4">
